@@ -1,5 +1,9 @@
 /*
-use deque to keep track of max or min number from range(i, j)
+need to find longest subarray with absolute diff between any elements in this subarray less than a number-limit ->
+find longest subarray with min and max diff less than minute ->
+keep track of min and max for sliding window ->
+1. use two priority queue, max queue for tracking imax, min queue for tracking imin. NlgN
+2. use deque to keep track of min and max number, O(N)
 */
 
 int longestSubarray(vector<int>& nums, int limit) {

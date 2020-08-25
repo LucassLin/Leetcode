@@ -1,5 +1,5 @@
 /*
-stack for match substring with size k
+stack for match substring with same char with size k
 */
 
 string removeDuplicates(string s, int k) {
