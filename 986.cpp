@@ -1,5 +1,6 @@
 /*
-
+find overlap between two lists
+easy two pointer
 */
 
 vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B) {
